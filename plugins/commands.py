@@ -255,8 +255,8 @@ async def start(client, message):
                 photo = random.choice(FSUB_PICS) if FSUB_PICS else "https://graph.org/file/7478ff3eac37f4329c3d8.jpg"
                 caption = (
                     f"👋 ʜᴇʟʟᴏ {message.from_user.mention}\n\n"
-                    "🛑 ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.\n"
-                    "👉 ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
+                    "🛑 ನೀವು ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ಸೇರಿ ಮುಂದುವರೆಯಲು.\n"
+                    "👉 ದಯವಿಟ್ಟು ಕೆಳಗೆ ಇರುವ ಪ್ರತಿಯೊಂದು 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ಸೇರಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
                 )
                 await message.reply_photo(
                     photo=photo,
@@ -455,7 +455,7 @@ async def stream_buttons(user_id: int, file_id: str):
 async def log_file(bot, message):
     """Send log file"""
     try:
-        await message.reply_document('DreamXlogs.txt', caption="📑 **ʟᴏɢꜱ**")
+        await message.reply_document('logs.txt', caption="📑 **ʟᴏɢꜱ**")
     except Exception as e:
         await message.reply(str(e))
 
@@ -908,9 +908,9 @@ async def trendlist(client, message):
         return
     formatted_list = "\n".join([f"{i+1}. <b>{msg}</b>" for i, msg in enumerate(truncated_messages)])
     additional_message = (
-        "⚡️ 𝑨𝒍𝒍 𝒕𝒉𝒆 𝒓𝒆𝒔𝒖𝒍𝒕𝒔 𝒂𝒃𝒐𝒗𝒆 𝒄𝒐𝒎𝒆 𝒇𝒓𝒐𝒎 𝒘𝒉𝒂𝒕 𝒖𝒔𝒆𝒓𝒔 𝒉𝒂𝒗𝒆 𝒔𝒆𝒂𝒓𝒄𝒉𝒆𝒅 𝒇𝒐𝒓. "
-        "𝑻𝒉𝒆𝒚'𝒓𝒆 𝒔𝒉𝒐𝒘𝒏 𝒕𝒐 𝒚𝒐𝒖 𝒆𝒙𝒂𝒄𝒕𝒍𝒚 𝒂𝒔 𝒕𝒉𝒆𝒚 𝒘𝒆𝒓𝒆 𝒔𝒆𝒂𝒓𝒄𝒉𝒆𝒅, "
-        "𝒘𝒊𝒕𝒉𝒐𝒖𝒕 𝒂𝒏𝒚 𝒄𝒉𝒂𝒏𝒈𝒆𝒔 𝒃𝒚 𝒕𝒉𝒆 𝒐𝒘𝒏𝒆𝒓."
+        "⚡️ ಮೇಲಿನ ಎಲ್ಲಾ ಫಲಿತಾಂಶಗಳು ಬಳಕೆದಾರರು ಹುಡುಕಿದ ಮಾಹಿತಿಯಿಂದ ಬಂದಿವೆ. "
+        "ಅವುಗಳನ್ನು ಬಳಕೆದಾರರು ಹೇಗೆ ಹುಡುಕಿದರೋ ಅದೇ ರೀತಿಯಲ್ಲಿ ನಿಮಗೆ ತೋರಿಸಲಾಗುತ್ತದೆ, "
+        "𝗢𝗪𝗡𝗘𝗥 ಯಾವುದೇ ಬದಲಾವಣೆಗಳಿಲ್ಲದೇ."
     )
     formatted_list += f"\n\n{additional_message}"
     reply_text = f"<b>Top {len(truncated_messages)} Tʀᴀɴᴅɪɴɢ ᴏғ ᴛʜᴇ ᴅᴀʏ 👇:</b>\n\n{formatted_list}"
@@ -1025,7 +1025,7 @@ async def set_tutorial(client, message: Message):
     except IndexError:
         return await message.reply_text(
             f"<b>ᴄᴏᴍᴍᴀɴᴅ ɪɴᴄᴏᴍᴘʟᴇᴛᴇ !!\n\nᴜꜱᴇ ʟɪᴋᴇ ᴛʜɪꜱ -</b>\n\n"
-            f"<code>/{message.command[0]} https://t.me/dreamxbotz</code>"
+            f"<code>/{message.command[0]} https://t.me/AddaFileZ</code>"
         )
     if message.command[0] == "set_tutorial":
         tutorial_key = "tutorial"
