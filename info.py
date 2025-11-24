@@ -42,7 +42,7 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c
 # Admin, Channels & Users Configuration
 # ============================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6390511215 862418425').split()] # Replace with the actual admin ID(s) to add
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002366465096').split()]  # Channel id for auto indexing (make sure bot is admin)
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002366465096 -1003108825356').split()]  # Channel id for auto indexing (make sure bot is admin)
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001956199528'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001956199528'))  # Bin channel id (make sure bot is admin)
@@ -54,7 +54,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+ICl_D5Cc8x40NWJl')  # 
 
 # FORCE_SUB 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002164939634")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
-auth_channels     = environ.get("AUTH_CHANNELS", "-1003297155836")# Channels for force sub (make sure bot is admin)
+auth_channels     = environ.get("AUTH_CHANNELS", "-1003297155836 -1003108825356")# Channels for force sub (make sure bot is admin)
 
 # ============================
 # Payment Configuration
@@ -121,8 +121,8 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+gg0j2M-MN0BmOThl') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AddaFilez') # Owner link for the bot
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/AddaFilez') # Update channel link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Contact_AddaFileZ_bot') # Owner link for the bot
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/Adda_Botz') # Update channel link for the bot
 
 # ============================
 # User Configuration
