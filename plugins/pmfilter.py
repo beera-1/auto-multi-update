@@ -64,10 +64,10 @@ async def give_filter(client, message):
             return
         await message.reply_text(
             f"<b>Hᴇʏ {message.from_user.mention},\n\n"
-            f"ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ✅\n\n"
+            f"ನಿಮ್ಮ 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ಈಗಾಗಲೇ ಲಭ್ಯವಿದೆ ✅\n\n"
             f"📂 ꜰɪʟᴇꜱ ꜰᴏᴜɴᴅ : {str(total_results)}\n"
             f"🔍 ꜱᴇᴀʀᴄʜ :</b> <code>{search}</code>\n\n"
-            f"<b>‼️ ᴛʜɪs ɪs ᴀ <u>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</u> sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\n"
+            f"<b>‼️ ᴛʜɪs ɪs ᴀ <u>sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</u> ಆದ್ದರಿಂದ ನೀವು ಇಲ್ಲಿ ಫೈಲ್‌ಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ...\n\n"
             f"📝 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ : 👇</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("🔍 ᴊᴏɪɴ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url=GRP_LNK)]])
@@ -96,10 +96,11 @@ async def pm_text(bot, message):
             await message.reply_text(
                 text=(
                     f"<b>🙋 ʜᴇʏ {user} 😍 ,\n\n"
-                    "𝒀𝒐𝒖 𝒄𝒂𝒏 𝒔𝒆𝒂𝒓𝒄𝒉 𝒇𝒐𝒓 𝒎𝒐𝒗𝒊𝒆𝒔 𝒐𝒏𝒍𝒚 𝒐𝒏 𝒐𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑. 𝒀𝒐𝒖 𝒂𝒓𝒆 𝒏𝒐𝒕 𝒂𝒍𝒍𝒐𝒘𝒆𝒅 𝒕𝒐 𝒔𝒆𝒂𝒓𝒄𝒉 𝒇𝒐𝒓 𝒎𝒐𝒗𝒊𝒆𝒔 𝒐𝒏 𝑫𝒊𝒓𝒆𝒄𝒕 𝑩𝒐𝒕. 𝑷𝒍𝒆𝒂𝒔𝒆 𝒋𝒐𝒊𝒏 𝒐𝒖𝒓 𝒎𝒐𝒗𝒊𝒆 𝒈𝒓𝒐𝒖𝒑 𝒃𝒚 𝒄𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝒐𝒏 𝒕𝒉𝒆  𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑯𝑬𝑹𝑬 𝒃𝒖𝒕𝒕𝒐𝒏 𝒈𝒊𝒗𝒆𝒏 𝒃𝒆𝒍𝒐𝒘 𝒂𝒏𝒅 𝒔𝒆𝒂𝒓𝒄𝒉 𝒚𝒐𝒖𝒓 𝒇𝒂𝒗𝒐𝒓𝒊𝒕𝒆 𝒎𝒐𝒗𝒊𝒆 𝒕𝒉𝒆𝒓𝒆 👇\n\n"
+                    "ನೀವು ಸಿನಿಮಾಗಳನ್ನು ಹುಡುಕಲು ನಮ್ಮ Movie Group ಅನ್ನು ಮಾತ್ರ ಬಳಸಬಹುದು. Direct Bot ನಲ್ಲಿ ಸಿನಿಮಾಗಳನ್ನು ಹುಡುಕಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ. ದಯವಿಟ್ಟು ಕೆಳಗೆ ಇರುವ REQUEST HERE ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ನಮ್ಮ Movie Group ಗೆ ಸೇರಿ ಮತ್ತು ಅಲ್ಲಿ ನಿಮ್ಮ ಫೇವರಿಟ್ ಸಿನಿಮಾವನ್ನು ಹುಡುಕಿ 👇\n\n"
                     "<blockquote>"
-                    "आप केवल हमारे 𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑 पर ही 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 कर सकते हो । "
-                    "आपको 𝑫𝒊𝒓𝒆𝒄𝒕 𝑩𝒐𝒕 पर 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 करने की 𝑷𝒆𝒓𝒎𝒊𝒔𝒔𝒊𝒐𝒏 नहीं है कृपया नीचे दिए गए 𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑯𝑬𝑹𝑬 वाले 𝑩𝒖𝒕𝒕𝒐𝒏 पर क्लिक करके हमारे 𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑 को 𝑱𝒐𝒊𝒏 करें और वहां पर अपनी मनपसंद 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 सर्च करें ।"
+                    "ನೀವು ಸಿನಿಮಾಗಳನ್ನು ಹುಡುಕಲು ಕೇವಲ ನಮ್ಮ Movie Group ನಲ್ಲೇ ಬಳಸಬಹುದು."
+                    "ನಿಮಗೆ Direct Bot ನಲ್ಲಿ Movie Search ಮಾಡಲು ಅನುಮತಿ ಇಲ್ಲ. 
+                    "ದಯವಿಟ್ಟು ಕೆಳಗೆ ಇರುವ REQUEST HERE ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ನಮ್ಮ Movie Group ಗೆ ಸೇರಿ ಮತ್ತು ಅಲ್ಲಿ ನಿಮ್ಮ ಇಷ್ಟದ ಸಿನಿಮಾವನ್ನು ಹುಡುಕಿ.।"
                     "</blockquote></b>"
                 ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=GRP_LNK)]]))
             await bot.send_message(chat_id=LOG_CHANNEL,
@@ -384,7 +385,7 @@ async def qualities_cb_handler(client: Client, query: CallbackQuery):
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
                 f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\n"
-                f"ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"ಇದು ನಿಮ್ಮ 𝗠𝗢𝗩𝗜𝗘 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ಅಲ್ಲ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
                 show_alert=True,
             )
     except:
@@ -432,7 +433,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
     message = query.message
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
-            return await query.answer(f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...", show_alert=True,)
+            return await query.answer(f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nಇದು ನಿಮ್ಮ 𝗠𝗢𝗩𝗜𝗘 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ಅಲ್ಲ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...", show_alert=True,)
     except:
         pass
     if qual != "homepage":
@@ -544,7 +545,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
                 f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\n"
-                f"ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
+                f"ಇದು ನಿಮ್ಮ 𝗠𝗢𝗩𝗜𝗘 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ಅಲ್ಲ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...",
                 show_alert=True,
             )
     except:
@@ -591,7 +592,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     message = query.message
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
-            return await query.answer(f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...", show_alert=True,)
+            return await query.answer(f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nಇದು ನಿಮ್ಮ 𝗠𝗢𝗩𝗜𝗘 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ಅಲ್ಲ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...", show_alert=True,)
     except:
         pass
     if lang != "homepage":
@@ -696,7 +697,7 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
     try:
         if int(query.from_user.id) not in [query.message.reply_to_message.from_user.id, 0]:
             return await query.answer(
-                f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ…",
+                f"⚠️ ʜᴇʟʟᴏ {query.from_user.first_name},\nಇದು ನಿಮ್ಮ 𝗠𝗢𝗩𝗜𝗘 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ಅಲ್ಲ,\nʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ…",
                 show_alert=True,
             )
     except Exception:
@@ -859,7 +860,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("ᴛʜɪs ɪs ᴘᴀɢᴇs ʙᴜᴛᴛᴏɴ 😅")
 
     elif query.data == "hiding":
-        await query.answer("ʙᴇᴄᴀᴜsᴇ ᴏғ ʟᴀɢᴛᴇ ғɪʟᴇs ɪɴ ᴅᴀᴛᴀʙᴀsᴇ,🙏\nɪᴛ ᴛᴀᴋᴇꜱ ʟɪᴛᴛʟᴇ ʙɪᴛ ᴛɪᴍᴇ",show_alert=True)
+        await query.answer("𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 ವಿಳಂಬವಾದ ಫೈಲ್‌ಗಳ ಕಾರಣದಿಂದ, 🙏\nಇದಕ್ಕೆ ಸ್ವಲ್ಪ ಸಮಯ ಹಿಡಿಯುತ್ತದೆ",show_alert=True)
 
     elif query.data == "delallcancel":
         userid = query.from_user.id
@@ -894,7 +895,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{query.message.chat.id}_{key}")
             return
         except UserIsBlocked:
-            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
+            await query.answer('𝗕𝗢𝗧 ಅನ್ನು 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 ಮಾಡಪ್ಪಾ!', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=sendfiles3_{key}")
         except Exception as e:
@@ -947,8 +948,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     pass
                 await query.answer(
                     f"👋 Hello {query.from_user.first_name},\n\n"
-                    "🛑 Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴀʟʟ ʀᴇǫᴜɪʀᴇᴅ ᴜᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs.\n"
-                    "👉 Pʟᴇᴀsᴇ ᴊᴏɪɴ ᴇᴀᴄʜ ᴏɴᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.\n",
+                    "🛑 ನೀವು ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ಸೇರಿಲ್ಲ.\n"
+                    "👉 ದಯವಿಟ್ಟು ಪ್ರತಿಯೊಂದು 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ಸೇರಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.\n",
                     show_alert=True
                 )
                 return
@@ -999,7 +1000,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 and st.status != enums.ChatMemberStatus.OWNER
                 and str(userid) not in ADMINS
         ):
-            await query.answer("ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ʀɪɢʜᴛꜱ ᴛᴏ ᴅᴏ ᴛʜɪꜱ !", show_alert=True)
+            await query.answer("ನಿಮಗೆ ಇದು ಮಾಡಲು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ!", show_alert=True)
             return
         title = query.message.chat.title
         settings = await get_settings(grp_id)
@@ -1022,7 +1023,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 and st.status != enums.ChatMemberStatus.OWNER
                 and str(userid) not in ADMINS
         ):
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ!", show_alert=True)
             return
         title = query.message.chat.title
         settings = await get_settings(grp_id)
@@ -1061,7 +1062,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("♨️Type Correct Spelling♨️",
                                  callback_data=f"Type_Correct_Spelling#{from_user}")
         ], [
-            InlineKeyboardButton("⚜️ Not Available In The Hindi ⚜️",
+            InlineKeyboardButton("⚜️ Not Available In The ಕನ್ನಡ ⚜️",
                                  callback_data=f"Not_Available_In_The_Hindi#{from_user}")
         ]]
         btn2 = [[
@@ -1073,7 +1074,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_reply_markup(reply_markup)
             await query.answer("Hᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ᴏᴘᴛɪᴏɴs !")
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ!", show_alert=True)
 
     elif query.data.startswith("unavailable"):
         ident, from_user = query.data.split("#")
@@ -1127,7 +1128,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=int(from_user),
                     text=(
                         f"<b>Hᴇʏ {user.mention}\n\n"
-                        f"<code>{content}</code>, ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ɴᴏᴛ ʙᴇᴇɴ ʀᴇʟᴇᴀꜱᴇᴅ ʏᴇᴛ\n\n"
+                        f"<code>{content}</code>, ನಿಮ್ಮ ವಿನಂತಿ ಇನ್ನೂ 𝗥𝗘𝗟𝗘𝗔𝗦𝗘 ಆಗಿಲ್ಲ\n\n"
                         f"#CᴏᴍɪɴɢSᴏᴏɴ...🕊️✌️</b>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
@@ -1137,14 +1138,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=int(SUPPORT_CHAT_ID),
                     text=(
                         f"<u>Hᴇʏ {user.mention}</u>\n\n"
-                        f"<b><code>{content}</code>, ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ɴᴏᴛ ʙᴇᴇɴ ʀᴇʟᴇᴀꜱᴇᴅ ʏᴇᴛ\n\n"
+                        f"<b><code>{content}</code>, ನಿಮ್ಮ ವಿನಂತಿ ಇನ್ನೂ 𝗥𝗘𝗟𝗘𝗔𝗦𝗘 ಆಗಿಲ್ಲ\n\n"
                         f"#CᴏᴍɪɴɢSᴏᴏɴ...🕊️✌️\n\n"
-                        f"<small>Bʟᴏᴄᴋᴇᴅ? Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.</small></b>"
+                        f"<small>𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿದಿರಾ? 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 ಸ್ವೀಕರಿಸಲು 𝗕𝗢𝗧 ಅನ್ನು 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿ.</small></b>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
                 )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ !", show_alert=True)
 
     elif query.data.startswith("Type_Correct_Spelling"):
         ident, from_user = query.data.split("#")
@@ -1181,12 +1182,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         f"<u>Hᴇʏ {user.mention}</u>\n\n"
                         f"<b><code>{content}</code>, Bᴇᴄᴀᴜsᴇ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ Wᴀs Wʀᴏɴɢ 😢\n\n"
                         f"#Wʀᴏɴɢ_Sᴘᴇʟʟɪɴɢ 😑\n\n"
-                        f"<small>Bʟᴏᴄᴋᴇᴅ? Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.</small></b>"
+                        f"<small>𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿದಿರಾ? 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 ಸ್ವೀಕರಿಸಲು 𝗕𝗢𝗧 ಅನ್ನು 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿ.</small></b>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
                 )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ !", show_alert=True)
 
     elif query.data.startswith("Not_Available_In_The_Hindi"):
         ident, from_user = query.data.split("#")
@@ -1211,7 +1212,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=int(from_user),
                     text=(
                         f"<b>Hᴇʏ {user.mention}\n\n"
-                        f"Yᴏᴜʀ Rᴇǫᴜᴇsᴛ <code>{content}</code> ɪs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ Hɪɴᴅɪ ʀɪɢʜᴛ ɴᴏᴡ. Sᴏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs ᴄᴀɴ'ᴛ ᴜᴘʟᴏᴀᴅ ɪᴛ\n\n"
+                        f"Yᴏᴜʀ Rᴇǫᴜᴇsᴛ <code>{content}</code> ಇದು ಈಗ ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ಆದ್ದರಿಂದ ನಮ್ಮ 𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗢𝗥𝗦 ಇದನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ\n\n"
                         f"#Hɪɴᴅɪ_ɴᴏᴛ_ᴀᴠᴀɪʟᴀʙʟᴇ ❌</b>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
@@ -1221,14 +1222,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=int(SUPPORT_CHAT_ID),
                     text=(
                         f"<u>Hᴇʏ {user.mention}</u>\n\n"
-                        f"<b><code>{content}</code> ɪs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ Hɪɴᴅɪ ʀɪɢʜᴛ ɴᴏᴡ. Sᴏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs ᴄᴀɴ'ᴛ ᴜᴘʟᴏᴀᴅ ɪᴛ\n\n"
+                        f"<b><code>{content}</code> ಇದು ಈಗ ಕನ್ನಡದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ಆದ್ದರಿಂದ ನಮ್ಮ 𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗢𝗥𝗦 ಇದನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ\n\n"
                         f"#Hɪɴᴅɪ_ɴᴏᴛ_ᴀᴠᴀɪʟᴀʙʟᴇ ❌\n\n"
-                        f"<small>Bʟᴏᴄᴋᴇᴅ? Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.</small></b>"
+                        f"<small>𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿದಿರಾ? 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 ಸ್ವೀಕರಿಸಲು 𝗕𝗢𝗧 ಅನ್ನು 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿ.</small></b>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
                 )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ !", show_alert=True)
 
     elif query.data.startswith("uploaded"):
         ident, from_user = query.data.split("#")
@@ -1255,7 +1256,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=int(from_user),
                     text=(
                         f"<b>Hᴇʏ {user.mention},\n\n"
-                        f"<u>{content}</u> Yᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs.\n"
+                        f"<u>{content}</u> ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ನಮ್ಮ ಮೊಡರೇಟರ್‌ಗಳು ಅಪ್‌ಲೋಡ್ ಮಾಡಿದ್ದಾರೆ.\n"
                         f"Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.</b>\n\n"
                         f"#Uᴘʟᴏᴀᴅᴇᴅ✅"
                     ),
@@ -1266,15 +1267,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=int(SUPPORT_CHAT_ID),
                     text=(
                         f"<u>{content}</u>\n\n"
-                        f"<b>Hᴇʏ {user.mention}, Yᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴏᴜʀ ᴍᴏᴅᴇʀᴀᴛᴏʀs."
+                        f"<b>Hᴇʏ {user.mention}, ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ನಮ್ಮ 𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗢𝗥𝗦 ಅಪ್‌ಲೋಡ್ ಮಾಡಿದ್ದಾರೆ."
                         f"Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.</b>\n\n"
                         f"#Uᴘʟᴏᴀᴅᴇᴅ✅\n\n"
-                        f"<small>Bʟᴏᴄᴋᴇᴅ? Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.</small>"
+                        f"<small>𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿದಿರಾ? 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 ಸ್ವೀಕರಿಸಲು 𝗕𝗢𝗧 ಅನ್ನು 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿ.</small>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
                 )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ !", show_alert=True)
 
     elif query.data.startswith("already_available"):
         ident, from_user = query.data.split("#")
@@ -1315,12 +1316,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         f"<u>{content}</u> Yᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴏᴜʀ ʙᴏᴛ'ꜱ ᴅᴀᴛᴀʙᴀꜱᴇ.\n"
                         f"Kɪɴᴅʟʏ sᴇᴀʀᴄʜ ɪɴ ᴏᴜʀ Gʀᴏᴜᴘ.</b>\n\n"
                         f"#Aᴠᴀɪʟᴀʙʟᴇ 💗\n"
-                        f"<small>Bʟᴏᴄᴋᴇᴅ? Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.</small></i>"
+                        f"<small>𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿದಿರಾ? 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 ಸ್ವೀಕರಿಸಲು 𝗕𝗢𝗧 ಅನ್ನು 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 ಮಾಡಿ.</small></i>"
                     ),
                     reply_markup=InlineKeyboardMarkup(btn2)
                 )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ !", show_alert=True)
 
     elif query.data.startswith("alalert"):
         ident, from_user = query.data.split("#")
@@ -1331,7 +1332,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 show_alert=True
             )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴇɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs ❌", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ ! ❌", show_alert=True)
 
     elif query.data.startswith("upalert"):
         ident, from_user = query.data.split("#")
@@ -1342,7 +1343,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 show_alert=True
             )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴇɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs ❌", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ ! ❌", show_alert=True)
 
     elif query.data.startswith("unalert"):
         ident, from_user = query.data.split("#")
@@ -1353,14 +1354,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 show_alert=True
             )
         else:
-            await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴇɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs ❌", show_alert=True)
+            await query.answer("ಇದು ಮಾಡಲು ನಿಮಗೆ ಸಾಕಷ್ಟು 𝗥𝗜𝗚𝗛𝗧𝗦 ಇಲ್ಲ ! ❌", show_alert=True)
 
     elif query.data.startswith("hnalert"):
         ident, from_user = query.data.split("#")  # Hindi Not Available
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
             await query.answer(
-                f"Hᴇʏ {user.first_name}, Tʜɪꜱ ɪꜱ Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ Hɪɴᴅɪ ❌",
+                f"Hᴇʏ {user.first_name}, Tʜɪꜱ ɪꜱ Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ಕನ್ನಡ ❌",
                 show_alert=True
             )
         else:
@@ -1375,14 +1376,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 show_alert=True
             )
         else:
-            await query.answer("Yᴏᴜ ᴄᴀɴ'ᴛ ᴅᴏ ᴛʜɪꜱ ᴀꜱ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴛʜᴇ ᴏʀɪɢɪɴᴀʟ ʀᴇǫᴜᴇꜱᴛᴇʀ ❌", show_alert=True)
+            await query.answer("ನೀನು ಮೂಲ 𝗥𝗘𝗤𝗨𝗘𝗦𝗧𝗘𝗥, ಆದ್ದರಿಂದ ಇದು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ ❌", show_alert=True)
 
     elif query.data.startswith("wsalert"):
         ident, from_user = query.data.split("#")  # Wrong Spelling
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
             await query.answer(
-                f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇǫᴜᴇꜱᴛ ᴡᴀꜱ ʀᴇᴊᴇᴄᴛᴇᴅ ᴅᴜᴇ ᴛᴏ ᴡʀᴏɴɢ sᴘᴇʟʟɪɴɢ ❗",
+                f"Hᴇʏ {user.first_name}, ತಪ್ಪು 𝗦𝗣𝗘𝗟𝗟𝗜𝗡𝗚 ಕಾರಣದಿಂದ ನಿಮ್ಮ 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 ʀᴇᴊᴇᴄᴛᴇᴅ ❗",
                 show_alert=True
             )
         else:
@@ -1460,13 +1461,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour
         if curr_time < 12:
-            gtxt = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 🌞"
+            gtxt = "ಬೆಳಗ್ಗಿನ ಶುಭೋದಯ 🌞"
         elif curr_time < 17:
-            gtxt = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌓"
+            gtxt = "ಶುಭ ಮಧ್ಯಾಹ್ನ 🌓"
         elif curr_time < 21:
-            gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌘"
+            gtxt = "ಶುಭ ಸಂಜೆ 🌘"
         else:
-            gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 🌑"
+            gtxt = "ಶುಭ ರಾತ್ರಿ 🌑"
         try:
             await client.edit_message_media(
                 query.message.chat.id,
@@ -1568,7 +1569,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ᴅʀᴇᴀᴍxʙᴏᴛᴢ 📜', url='https://github.com/DreamXBotz/Auto_Filter_Bot.git'),
+            InlineKeyboardButton('ᴀᴅᴅᴀꜰɪʟᴇᴢ 📜', url='https://t.me/AddaFileZ'),
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1956,16 +1957,16 @@ async def auto_filter(client, msg, spoll=False):
             temp.IMDB_CAP[message.from_user.id] = None
             if ULTRA_FAST_MODE:
                 if settings.get('button'):
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴀᴅᴅᴀꜰɪʟᴇᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
                 else:
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴀᴅᴅᴀꜰɪʟᴇᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
                     for idx, file in enumerate(files, start=1):
                         cap += f"<b>\n{idx}. <a href='https://telegram.me/{temp.U_NAME}?start=file_{message.chat.id}_{file.file_id}'>[{get_size(file.file_size)}] {clean_filename(file.file_name)}\n</a></b>"
             else:
                 if settings.get('button'):
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴀᴅᴅᴀꜰɪʟᴇᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
                 else:
-                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴅʀᴇᴀᴍxʙᴏᴛᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
+                    cap = f"<b>🏷 ᴛɪᴛʟᴇ : <code>{search}</code>\n🧱 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ⚡ {message.chat.title or temp.B_LINK or 'ᴀᴅᴅᴀꜰɪʟᴇᴢ'} \n\n<u>Your Requested Files Are Here</u> \n\n</b>"
 
                     for idx, file in enumerate(files, start=1):
                         cap += f"<b>\n{idx}. <a href='https://telegram.me/{temp.U_NAME}?start=file_{message.chat.id}_{file.file_id}'>[{get_size(file.file_size)}] {clean_filename(file.file_name)}\n</a></b>"
